@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(118, 116, 145);
+}
+
+h1 {
+    color: rgb(20, 20, 137);
+}
+h2 {
+    color: rgb(9, 9, 23);
+}
+
+p {
+    font-size: 18px;
+}
+
+table {
+    background-color: rgb(61, 148, 179);
+}
