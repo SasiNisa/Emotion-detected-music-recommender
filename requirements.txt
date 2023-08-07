@@ -1,6 +1,5 @@
 gunicorn
 tensorflow
 keras
-googleapiclient
 pandas
 numpy
