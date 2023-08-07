@@ -57,6 +57,17 @@ def Recommend_Songs(pred_class):
     return Play
 
 
+
+
+#live emotion
+
+
+
+#end of live
+
+
+
+
 #to do
 
 """ Set up the YouTube API:
@@ -86,8 +97,8 @@ def get_youtube_links(song_title, artist_name, api_key):
 
 
 def detect_emotion(image_path):
-    face_classifier = cv2.CascadeClassifier(r'C:\Users\User\Desktop\Mood-detection\Music_project\haarcascade_frontalface_default.xml')
-    classifier = load_model(r"C:\Users\User\Desktop\Mood-detection\Music_project\model.h5")
+    face_classifier = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')
+    classifier = load_model(r"model.h5")
 
     emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
